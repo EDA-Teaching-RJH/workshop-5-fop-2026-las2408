@@ -11,7 +11,8 @@ def money():
          if coin in coins:
              total_due -= int(coin)
          else:
-            print("Invalid Coin")
+            print("Invalid Coin - Please try again")
+            continue
 
     if total_due < 0:
         print(f"Amount owed: {total_due * -1}")
