@@ -1,4 +1,6 @@
-#Inputs
+#Statement of Requirements
+#Inputs accpeted are 5,10,20,50, any other coins are considered invalid and programme stops
+#If a string is entered rather than a integer, the programme will crash
 def money():
     total_due = 75
     coins = ["5","10","20","50"]
